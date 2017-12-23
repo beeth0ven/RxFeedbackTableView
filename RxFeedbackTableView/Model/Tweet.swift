@@ -9,7 +9,8 @@
 import Foundation
 
 struct Tweet {
+    let id: String
     let title: String
     let content: String
-    let liked: Bool
+    var liked: Bool
 }

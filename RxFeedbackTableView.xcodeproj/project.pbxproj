@@ -14,6 +14,9 @@
 		453865451FEE2A0A0089FCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453865431FEE2A0A0089FCDE /* LaunchScreen.storyboard */; };
 		453865511FEE31270089FCDE /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453865501FEE31270089FCDE /* Tweet.swift */; };
 		453865531FEE317C0089FCDE /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453865521FEE317C0089FCDE /* TweetService.swift */; };
+		45D2E0BA1FEE3F50002BB2F4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2E0B91FEE3F50002BB2F4 /* TweetTableViewCell.swift */; };
+		45D2E0BE1FEE560C002BB2F4 /* TweetsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2E0BD1FEE560C002BB2F4 /* TweetsState.swift */; };
+		45D2E0C01FEE5634002BB2F4 /* TweetsState+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2E0BF1FEE5634002BB2F4 /* TweetsState+Event.swift */; };
 		980DD1D7DE77049448171AD0 /* Pods_RxFeedbackTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D729F613BAA30F2645CBBF /* Pods_RxFeedbackTableView.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		453865461FEE2A0A0089FCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453865501FEE31270089FCDE /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		453865521FEE317C0089FCDE /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
+		45D2E0B91FEE3F50002BB2F4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		45D2E0BD1FEE560C002BB2F4 /* TweetsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsState.swift; sourceTree = "<group>"; };
+		45D2E0BF1FEE5634002BB2F4 /* TweetsState+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TweetsState+Event.swift"; sourceTree = "<group>"; };
 		A2C31EA605079DF2F3721FB1 /* Pods-RxFeedbackTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFeedbackTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxFeedbackTableView/Pods-RxFeedbackTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +80,8 @@
 		453865391FEE2A0A0089FCDE /* RxFeedbackTableView */ = {
 			isa = PBXGroup;
 			children = (
+				45D2E0BB1FEE55ED002BB2F4 /* State */,
+				45D2E0B81FEE3F3F002BB2F4 /* View */,
 				4538654F1FEE31160089FCDE /* Service */,
 				4538654E1FEE310E0089FCDE /* Model */,
 				4538653A1FEE2A0A0089FCDE /* AppDelegate.swift */,
@@ -108,6 +116,23 @@
 				453865521FEE317C0089FCDE /* TweetService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		45D2E0B81FEE3F3F002BB2F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45D2E0B91FEE3F50002BB2F4 /* TweetTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45D2E0BB1FEE55ED002BB2F4 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				45D2E0BD1FEE560C002BB2F4 /* TweetsState.swift */,
+				45D2E0BF1FEE5634002BB2F4 /* TweetsState+Event.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 		BF0001BB017F5F4B2841C336 /* Frameworks */ = {
@@ -242,8 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				453865511FEE31270089FCDE /* Tweet.swift in Sources */,
+				45D2E0BE1FEE560C002BB2F4 /* TweetsState.swift in Sources */,
 				4538653D1FEE2A0A0089FCDE /* TableViewController.swift in Sources */,
+				45D2E0C01FEE5634002BB2F4 /* TweetsState+Event.swift in Sources */,
 				4538653B1FEE2A0A0089FCDE /* AppDelegate.swift in Sources */,
+				45D2E0BA1FEE3F50002BB2F4 /* TweetTableViewCell.swift in Sources */,
 				453865531FEE317C0089FCDE /* TweetService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
