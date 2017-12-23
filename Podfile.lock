@@ -1,0 +1,22 @@
+PODS:
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+
+DEPENDENCIES:
+  - RxCocoa (from `~/XCodeProjects/Tutorial/Rx/ReactiveX/RxSwift/RxCocoa.podspec`)
+  - RxSwift (from `~/XCodeProjects/Tutorial/Rx/ReactiveX/RxSwift/RxSwift.podspec`)
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :podspec: "~/XCodeProjects/Tutorial/Rx/ReactiveX/RxSwift/RxCocoa.podspec"
+  RxSwift:
+    :podspec: "~/XCodeProjects/Tutorial/Rx/ReactiveX/RxSwift/RxSwift.podspec"
+
+SPEC CHECKSUMS:
+  RxCocoa: 36c5f6bf8c6d4ab5512f1d54d5c86a1cc1456e0a
+  RxSwift: 3308580de63238d5a2ead3064c32af2cc97ba949
+
+PODFILE CHECKSUM: 5f1ea684ddfab3b9cd99f92be72e72be6140cf8e
+
+COCOAPODS: 1.2.0
